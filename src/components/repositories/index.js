@@ -30,7 +30,7 @@ const Repositories = () => {
           </styled.WrapperTabList>
           <styled.WrapperTabPanel>
             <styled.WrapperList>
-              {githubState.repositoriestyled.map((item) => (
+              {githubState.repositories.map((item) => (
                 <RepositoryItem
                   key={item.id}
                   name={item.name}
